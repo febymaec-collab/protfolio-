@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feby Mae Castillo | Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Sacramento&display=swap" rel="stylesheet">
+    <style>
+        /* Global Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        body {
+            background: #ffe6f0;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        img {
+            max-width: 100%;
+            display: block;
+        }
+
+        /* Header / Hero Section */
+        header {
+            text-align: center;
+            padding: 60px 20px 40px;
+            background: linear-gradient(to bottom, #ffe6f0, #ffd9e8);
+        }
+
+        header img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 3px solid #ff99cc;
+            object-fit: cover;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+            transition: transform 0.3s;
+        }
+
+        header img:hover {
+            transform: scale(1.05);
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin: 20px 0 10px;
+        }
+
+        header h2 {
+            font-size: 1.2rem;
+            color: #ff66aa;
+            font-weight: 500;
+        }
+
+        /* Section Styles */
+        section {
+            padding: 60px 20px;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        section h3 {
+            font-family: 'Sacramento', cursive;
+            font-size: 2rem;
+            color: #ff66aa;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        /* About Section */
+        #about p {
+            text-align: center;
+            max-width: 700px;
+            margin: 10px auto 0;
+        }
+
+        /* Skills Section */
+        .skills-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .skill-card {
+            background: #fff0f5;
+            padding: 20px;
+            border-radius: 15px;
+            width: 200px;
+            text-align: center;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .skill-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+        }
+
+        /* Projects Section */
+        .projects-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .project-card {
+            background: #fff0f5;
+            border-radius: 15px;
+            padding: 20px;
+            width: 250px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .project-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+        }
+
+        .project-card h4 {
+            margin-bottom: 10px;
+            color: #ff66aa;
+        }
+
+        .project-card p {
+            font-size: 0.9rem;
+        }
+
+        /* Social Media Section */
+        .socials {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .socials a {
+            display: inline-block;
+            margin: 0 10px;
+            font-size: 1.5rem;
+            color: #ff66aa;
+            transition: transform 0.3s;
+        }
+
+        .socials a:hover {
+            transform: scale(1.2);
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #ffd9e8;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <img src="feby-profile.jpg" alt="Feby Mae Castillo">
+        <h1>Feby Mae Castillo</h1>
+        <h2>Aspiring Web Developer</h2>
+        <p>Lambayong, Sultan Kudarat | +63 975 754 1668 | febymaecastillo@sksu.edu.ph</p>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <h3>About Me</h3>
+        <p>Hello! I am Feby Mae Castillo, a first-year college student at Sultan Kudarat State University. I am passionate about web development and technology, always eager to learn and build creative projects.</p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h3>Skills</h3>
+        <div class="skills-container">
+            <div class="skill-card">
+                <h4>HTML</h4>
+                <p>Building structured and semantic web pages efficiently.</p>
+            </div>
+            <div class="skill-card">
+                <h4>CSS</h4>
+                <p>Styling websites with responsive and beautiful designs.</p>
+            </div>
+            <div class="skill-card">
+                <h4>JavaScript</h4>
+                <p>Adding interactive features to enhance user experience.</p>
+            </div>
+            <div class="skill-card">
+                <h4>Python</h4>
+                <p>Writing clean code for various applications and projects.</p>
+            </div>
+            <div class="skill-card">
+                <h4>React</h4>
+                <p>Creating modern front-end applications with reusable components.</p>
+            </div>
+            <div class="skill-card">
+                <h4>Photoshop</h4>
+                <p>Designing visual content and enhancing graphics for projects.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h3>Projects</h3>
+        <div class="projects-container">
+            <div class="project-card">
+                <h4>Portfolio Website</h4>
+                <p>My personal website showcasing skills and projects.</p>
+                <p><strong>Technologies:</strong> HTML, CSS, JavaScript</p>
+            </div>
+            <div class="project-card">
+                <h4>Weather App</h4>
+                <p>A web application that displays real-time weather data.</p>
+                <p><strong>Technologies:</strong> JavaScript, API, CSS</p>
+            </div>
+            <div class="project-card">
+                <h4>To-Do List</h4>
+                <p>An interactive task management tool for daily productivity.</p>
+                <p><strong>Technologies:</strong> React, CSS</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Media Section -->
+    <section id="socials">
+        <h3>Connect with Me</h3>
+        <div class="socials">
+            <a href="#" target="_blank">Facebook</a>
+            <a href="#" target="_blank">LinkedIn</a>
+            <a href="#" target="_blank">GitHub</a>
+            <a href="#" target="_blank">Instagram</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Feby Mae Castillo</p>
+    </footer>
+</body>
+</html>
